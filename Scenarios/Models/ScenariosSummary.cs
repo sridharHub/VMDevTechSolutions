@@ -9,7 +9,7 @@ namespace Scenarios.Models
     public class ScenarioSummary
     {
         ///<summary>
-        /// Gets or sets Customers.
+        /// Gets or sets Scenarios.
         ///</summary>
         public List<Scenario> ScenarioDetails { get; set; }
 
