@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>VM Developer Technical Exercises</h1>
+    <p class="lead">This Web applications provides different technical exercises</p>
+   
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+                Under Construction
+        </p>
+        
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>Under Construction</p>
+       
+    </div>
+    <div class="col-md-4">
+        <h2>Scenarios Summary</h2>
+        <p>
+            design a simple web app that displays the list of scenarios from the data.xml
+            file in a summary back to the user.
+
+            <a href="@Url.Action("Index", null, new { area = string.Empty, controller = "Scenarios" }, Request.Url.Scheme)">
+                <span class="btn btn-primary" style="color:white">Click here to view Scenarios Summary</span>
+            </a>
+
+        </p>
+     
+    </div>
+</div>
